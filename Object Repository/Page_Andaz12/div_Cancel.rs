@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Main Menu</name>
+   <name>div_Cancel</name>
    <tag></tag>
-   <elementGuidId>2b1178db-4dfb-4652-bb3d-acc222755729</elementGuidId>
+   <elementGuidId>44b9e032-63c3-4789-a694-4edb02e9196f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@vouchtitle = 'Main Menu']</value>
+         <value>//*[@vouchtitle = 'Cancel']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='vc-message-no-1574867198774']/div[2]/span/div</value>
+         <value>//div[2]/span/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,56 +35,56 @@
       <matchCondition>equals</matchCondition>
       <name>vouchtitle</name>
       <type>Main</type>
-      <value>Main Menu</value>
+      <value>Cancel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>vouchpayload</name>
       <type>Main</type>
-      <value>BLOCK:*:5c089abff82bb561b4eff213_*_parentBlockId:*:5c089abff82bb561b4eff1ec</value>
+      <value>BLOCK:*:5c089abff82bb561b4eff1eb_*_quickreply_title:*:Cancel_*_userAttributeToChange:*:temp_*_parentBlockId:*:5c089abff82bb561b4eff1de</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Main Menu</value>
+      <value>Cancel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vc-message-no-1574867198774&quot;)/div[@class=&quot;quick-replies&quot;]/span[@class=&quot;vcw-gallery-item-simple&quot;]/div[@class=&quot;quick-reply quick-reply-button&quot;]</value>
+      <value>id(&quot;vc-message-no-1574867010032&quot;)/div[@class=&quot;quick-replies&quot;]/span[@class=&quot;vcw-gallery-item-simple&quot;]/div[@class=&quot;quick-reply quick-reply-button&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vc-message-no-1574867198774']/div[2]/span/div</value>
+      <value>//div[@id='vc-message-no-1574867010032']/div[2]/span/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, 27 Nov 22:06:43'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, 27 Nov 22:03:34'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, 27 Nov 22:06:42'])[1]/following::div[9]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please provide us with your email.'])[1]/following::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disconnected from server..'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reconnecting to server..'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,40 +99,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='vc-message-no-1574839460650']/div[2]/span[2]/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Booking issues'])[1]/following::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, 27 Nov 14:24:20'])[1]/following::div[5]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='This is an alert'])[1]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/span[2]/div</value>
    </webElementXpaths>
 </WebElementEntity>
