@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>VerifyButtonAds</name>
-   <tag></tag>
-   <comment>Check if the chatbot respond after clicking &quot;Get Started&quot; button
-Check if the chatbot respond after clicking &quot;Reservation&quot; button</comment>
-   <testCaseGuid>4fea19bc-e798-4631-a745-8b5c457b9182</testCaseGuid>
-</TestCaseEntity>

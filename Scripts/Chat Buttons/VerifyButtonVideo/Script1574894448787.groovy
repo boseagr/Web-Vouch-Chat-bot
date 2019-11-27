@@ -16,15 +16,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.comment('This Test If the widget loaded properly in given time, by checking if "Get Started" button is present and clickable')
+WebUI.openBrowser('https://staging.vouch.sg/api/v1/merchants/bot/5c0899a0f82bb561b4eff079')
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/Page_Andaz12/div_Get Started'))
 
-WebUI.navigateToUrl('https://staging.vouch.sg/api/v1/merchants/bot/5c0899a0f82bb561b4eff079')
+WebUI.comment('Check if the chatbot respond after clicking "Get Started" button')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Andaz12/div_Get Started'), 'Get Started')
+WebUI.comment('check if the 3 buttons (Promotion, Video Tour, Reservation) is clickable')
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Andaz12/div_Get Started'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Andaz12/div_reservation'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Andaz12/div_Promotions'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Andaz12/div_video tour'))
+
+WebUI.click(findTestObject('Object Repository/Page_Andaz12/div_video tour'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Andaz12/video_tag'), 5)
 
 WebUI.closeBrowser()
 

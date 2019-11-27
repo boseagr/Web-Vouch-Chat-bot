@@ -30,17 +30,17 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Andaz12/div_
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Andaz12/div_video tour'))
 
-WebUI.click(findTestObject('Object Repository/Page_Andaz12/div_reservation'))
+WebUI.click(findTestObject('Object Repository/Page_Andaz12/div_Promotions'))
 
-WebUI.comment('Check if the chatbot respond after clicking "Reservation" button')
+WebUI.comment('Since promotion open new tab, it check wether new tab opened')
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Andaz12/div_Book Now'))
+WebUI.comment('Check if all button present after click reservation')
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Andaz12/div_Find out more_1'))
+WebUI.switchToWindowIndex(1)
 
-WebUI.click(findTestObject('Object Repository/Page_Andaz12/div_Find out more_1'))
+href = WebUI.getUrl()
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Andaz12/div_Book Now_1'))
+WebUI.verifyNotEqual(href, null)
 
 WebUI.closeBrowser()
 

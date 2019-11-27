@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyButtonVideo</name>
+   <tag></tag>
+   <comment>Check if the chatbot respond after clicking &quot;Get Started&quot; button
+check if the 3 buttons (Promotion, Video Tour, Reservation) is clickable
+Since promotion open new tab, it check wether new tab opened
+Check if all button present after click reservation</comment>
+   <testCaseGuid>6ed44306-cd13-4b0a-aa8f-96700f2257ee</testCaseGuid>
+</TestCaseEntity>

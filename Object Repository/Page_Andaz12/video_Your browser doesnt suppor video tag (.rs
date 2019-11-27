@@ -1,38 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Promotions</name>
+   <name>video_Your browser doesnt suppor video tag (</name>
    <tag></tag>
-   <elementGuidId>727be400-428f-4106-aa61-f6c9e192a464</elementGuidId>
+   <elementGuidId>0be2b727-bfbc-4120-82ff-fccc3e011204</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'vcw-card-button' and (text() = '
-                                    Promotions                                
-                                ' or . = '
-                                    Promotions                                
-                                ')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='vc-message-no-5dde70d5441a5c62d0a2a31f']/div/span/div[3]/div[3]</value>
+         <value>//video</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>vcw-card-button</value>
+      <value>video</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,49 +25,50 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                                    Promotions                                
-                                </value>
+                                                
+                        Your browser doesn't suppor video tag :(
+                    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vc-message-no-5dde70d5441a5c62d0a2a31f&quot;)/div[@class=&quot;vcw-gallery&quot;]/span[@class=&quot;vcw-card&quot;]/div[@class=&quot;vcw-card-button-wrapper&quot;]/div[@class=&quot;vcw-card-button&quot;]</value>
+      <value>id(&quot;vc-bubble-no-5ddefdf7dc4d995a3b93a4c0&quot;)/video[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vc-message-no-5dde70d5441a5c62d0a2a31f']/div/span/div[3]/div[3]</value>
+      <value>//div[@id='vc-bubble-no-5ddefdf7dc4d995a3b93a4c0']/video</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Tour'])[2]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='✔'])[1]/following::video[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reservations'])[2]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thu, 28 Nov 05:51:35'])[1]/preceding::video[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rooms'])[1]/preceding::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Menu'])[1]/preceding::video[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/div[3]/div[3]</value>
+      <value>//video</value>
    </webElementXpaths>
 </WebElementEntity>

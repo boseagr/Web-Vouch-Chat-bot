@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Page_Andaz12/div_Main Menu'))
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Andaz12/div_You can use the menu above or try typin_69bb46'), 
     'You can use the menu above, or try typing queries in short sentences to me.')
 
-WebUI.click(findTestObject('Object Repository/Page_Andaz12/div_Reservations'))
+WebUI.click(findTestObject('Page_Andaz12/div_Reservations_text'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Andaz12/div_Take a look and see what interests you_1'), 'Take a look and see what interests you!')
 

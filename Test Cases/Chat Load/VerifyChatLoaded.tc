@@ -3,6 +3,6 @@
    <description></description>
    <name>VerifyChatLoaded</name>
    <tag></tag>
-   <comment></comment>
+   <comment>This Test If the widget loaded properly in given time, by checking if &quot;Get Started&quot; button is present and clickable</comment>
    <testCaseGuid>55da3d47-e374-43c3-8466-687d5046debd</testCaseGuid>
 </TestCaseEntity>

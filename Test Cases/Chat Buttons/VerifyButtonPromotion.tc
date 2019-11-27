@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyButtonPromotion</name>
+   <tag></tag>
+   <comment>Check if the chatbot respond after clicking &quot;Get Started&quot; button
+check if the 3 buttons (Promotion, Video Tour, Reservation) is clickable
+Check if the chatbot respond after clicking &quot;Reservation&quot; button
+Check if all button present after click reservation
+Check if the chatbot respond after clicking &quot;Find out more&quot; button</comment>
+   <testCaseGuid>71ffc62a-aca0-4034-8ffb-17aa3cf2db79</testCaseGuid>
+</TestCaseEntity>
