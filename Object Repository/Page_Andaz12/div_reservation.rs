@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Im Momo your personal digital concierge_52d795</name>
+   <name>div_reservation</name>
    <tag></tag>
-   <elementGuidId>58199885-9643-43dd-9131-2632f95ff970</elementGuidId>
+   <elementGuidId>09a5aa6e-f9fa-4ede-84c9-5c056863ce5d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'vcw-message-bubble reset-font-size bot-text-bubble']</value>
+         <value>//*[@id = 'vcw-card-button' and @vouchtitle = 'Reservations']</value>
       </entry>
       <entry>
          <key>XPATH</key>
+         <value>//div[@vouchtitle='Reservations']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,9 +30,23 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>vcw-card-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>vcw-message-bubble reset-font-size bot-text-bubble</value>
+      <value>vcw-card-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>vouchtitle</name>
+      <type>Main</type>
+      <value>Reservations</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,56 +54,56 @@
       <name>text</name>
       <type>Main</type>
       <value>
-I’m Momo, your personal digital concierge and I am here 24/7 to answer your questions. This is ONLY A DEMO - although the information is based off a real digital concierge that Vouch made for a hotel in Singapore
-</value>
+                                    Reservations
+                                </value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='vc-bubble-no-5dde1d4016f0961293d8cb15']</value>
+      <value>//div[@id='vcw-card-button']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vc-message-no-5dde1d4016f0961293d8cb15']/div[2]</value>
+      <value>//div[@id='vc-message-no-5dde1f2116f0961293d8cf92']/div/span/div[3]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, 27 Nov 13:52:48'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotions'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to the DEMO digital concierge brought to you by VOUCH SG!'])[1]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Tour'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, 27 Nov 13:52:48'])[2]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Tour'])[2]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hi there. What can I help you with?'])[1]/preceding::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotions'])[2]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div[2]/div[2]</value>
+      <value>//span/div[3]/div</value>
    </webElementXpaths>
 </WebElementEntity>

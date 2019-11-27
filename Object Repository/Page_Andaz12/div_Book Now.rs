@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Take a look and see what interests you</name>
+   <name>div_Book Now</name>
    <tag></tag>
-   <elementGuidId>cde7e45d-c7ac-43e3-b1e4-088956d725e4</elementGuidId>
+   <elementGuidId>d3d8bdb7-21c8-4814-9184-44c264dafb3d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '
-Take a look and see what interests you!
-' or . = '
-Take a look and see what interests you!
-')]</value>
+         <value>//*[(text() = 'Book now!' or . = 'Book now!')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='vc-bubble-no-5dde810a70d8806e8a7cbb8a']</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,115 +26,113 @@ Take a look and see what interests you!
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>vc-bubble-no-5dde810a70d8806e8a7cbb8a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>vcw-message-bubble reset-font-size bot-text-bubble</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-Take a look and see what interests you!
-</value>
+      <value>Book now!</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vc-bubble-no-5dde810a70d8806e8a7cbb8a&quot;)</value>
+      <value>id(&quot;vc-message-no-5dde8976fe5eb47a35d38257&quot;)/div[@class=&quot;vcw-gallery&quot;]/span[@class=&quot;vcw-card&quot;]/div[@class=&quot;vcw-card-button-wrapper&quot;]/div[@class=&quot;vcw-card-button&quot;]/a[1]/div[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>reset-font-size</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='vc-bubble-no-5dde810a70d8806e8a7cbb8a']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vc-message-no-5dde810a70d8806e8a7cbb8a']/div[2]</value>
+      <value>//div[@id='vc-message-no-5dde8976fe5eb47a35d38257']/div/span/div[3]/div[2]/a/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='✔'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find out more!'])[2]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, 27 Nov 20:58:34'])[1]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book now!'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Auntie', &quot;'&quot;, 's Wok &amp; Steam @ Alley on 25')])[1]/preceding::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Icehaus @ Alley on 25'])[1]/preceding::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Light and easy dining, including cold cuts and sustainable seafood.'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='vc-bubble-no-5dde200c16f0961293d8d163']</value>
+      <value>//div[2]/a/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vc-message-no-5dde200c16f0961293d8d163']/div[2]</value>
+      <value>//div[@id='vc-message-no-5dde810a70d8806e8a7cbb96']/div/span/div[3]/div[2]/a/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vc-bubble-no-5dde71b8441a5c62d0a2a413']/a/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='✔'])[2]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='For Reservations:'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, 27 Nov 14:04:44'])[1]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, 27 Nov 19:53:08'])[1]/following::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Auntie', &quot;'&quot;, 's Wok &amp; Steam @ Alley on 25')])[2]/preceding::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, 27 Nov 19:53:12'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Operating Hours/Info'])[1]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/div[2]</value>
+      <value>//div[13]/div[5]/a/div</value>
    </webElementXpaths>
 </WebElementEntity>

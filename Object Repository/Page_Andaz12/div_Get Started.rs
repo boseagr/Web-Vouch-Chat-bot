@@ -6,12 +6,12 @@
    <elementGuidId>2c07bcb9-5077-4ada-8644-b13739b42b26</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='vc-greeting-button']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'vc-greeting-button']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'vc-greeting-button' and (text() = 'Get Started' or . = 'Get Started')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='vc-greeting-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <value>vc-greeting-button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
