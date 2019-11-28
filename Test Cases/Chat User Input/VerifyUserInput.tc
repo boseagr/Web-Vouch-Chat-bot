@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyUserInput</name>
+   <tag></tag>
+   <comment>Check if the chatbot respond after clicking &quot;Get Started&quot; button
+check if the 3 buttons (Promotion, Video Tour, Reservation) is clickable</comment>
+   <testCaseGuid>337c9c58-b731-4da7-8437-fe8fca1071de</testCaseGuid>
+</TestCaseEntity>

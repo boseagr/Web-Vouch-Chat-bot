@@ -18,6 +18,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://staging.vouch.sg/api/v1/merchants/bot/5c0899a0f82bb561b4eff079')
 
+WebUI.waitForJQueryLoad(5)
+
 WebUI.click(findTestObject('Object Repository/Page_Andaz12/div_Get Started'))
 
 WebUI.comment('Check if the chatbot respond after clicking "Get Started" button')
