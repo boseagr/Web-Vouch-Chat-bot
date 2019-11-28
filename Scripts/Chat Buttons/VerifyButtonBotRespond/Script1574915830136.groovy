@@ -22,7 +22,7 @@ WebUI.waitForJQueryLoad(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Andaz12/div_Get Started'))
 
-WebUI.comment('Check if the chatbot respond after clicking "Get Started" button')
+WebUI.comment('Check if the chatbot respond after clicking "Get Started" button.')
 
 WebUI.click(findTestObject('Object Repository/Page_Andaz12/div_Subscribe Newsletter'))
 
