@@ -6,15 +6,15 @@
    <elementGuidId>1ffdfe37-a911-445e-8ef4-062f588931d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'text' and @id = 'vc-input' and @placeholder = 'Type something..']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='vc-input']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subscribe Newsletter'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +92,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::input[1]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>09a5aa6e-f9fa-4ede-84c9-5c056863ce5d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'vcw-card-button' and @vouchtitle = 'Reservations']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>

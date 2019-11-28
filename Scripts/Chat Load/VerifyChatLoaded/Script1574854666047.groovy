@@ -22,6 +22,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://staging.vouch.sg/api/v1/merchants/bot/5c0899a0f82bb561b4eff079')
 
+WebUI.waitForJQueryLoad(5)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Andaz12/div_Get Started'), 5)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Andaz12/div_Get Started'), FailureHandling.STOP_ON_FAILURE)
