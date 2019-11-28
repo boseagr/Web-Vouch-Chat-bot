@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VerifyButtonZOther</name>
+   <name>VerifyButtonBotRespond</name>
    <tag></tag>
    <comment>Check if the chatbot respond after clicking &quot;Get Started&quot; button</comment>
    <testCaseGuid>f0dfebad-c815-4d97-a5f1-c345991bf449</testCaseGuid>
