@@ -6,8 +6,16 @@
    <elementGuidId>d0f2663d-9f4c-4d6d-aa70-dea1ab8d2554</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+Here are the types of rooms that we have!
+' or . = '
+Here are the types of rooms that we have!
+')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='vc-bubble-no-5dde9968798db907548daa87']</value>
+         <value>//div[@id='vc-bubble-no-5ddf0104dc4d995a3b93a590']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,11 +28,11 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>vc-bubble-no-5dde9968798db907548daa87</value>
+      <value>vc-bubble-no-5ddf0104dc4d995a3b93a590</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,10 +55,52 @@ Here are the types of rooms that we have!
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vc-message-no-5dde9968798db907548daa87&quot;)/div[@id=&quot;vc-bubble-no-5dde9968798db907548daa87&quot;]</value>
+      <value>id(&quot;vc-message-no-5ddf0104dc4d995a3b93a590&quot;)/div[@id=&quot;vc-bubble-no-5ddf0104dc4d995a3b93a590&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='vc-bubble-no-5ddf0104dc4d995a3b93a590']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vc-message-no-5ddf0104dc4d995a3b93a590']/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='✔'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Now'])[1]/preceding::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thu, 28 Nov 06:04:36'])[1]/preceding::div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -69,13 +119,6 @@ Here are the types of rooms that we have!
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='✔'])[8]/following::div[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Now'])[1]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

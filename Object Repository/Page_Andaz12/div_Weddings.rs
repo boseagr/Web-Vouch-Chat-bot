@@ -7,11 +7,15 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@vouchtitle = 'Weddings']</value>
+         <value>//*[@id = 'vcw-card-button' and (text() = '
+                                    Weddings
+                                ' or . = '
+                                    Weddings
+                                ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@id='vcw-card-button'])[97]</value>
+         <value>(//div[@id='vcw-card-button'])[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +28,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <value>vcw-card-button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>vouchtitle</name>
       <type>Main</type>
@@ -52,7 +56,7 @@
       <value>undefined</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -65,10 +69,59 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vc-message-no-5dde924dfe5eb47a35d389ff&quot;)/div[@class=&quot;vcw-gallery&quot;]/span[@class=&quot;vcw-card&quot;]/div[@class=&quot;vcw-card-button-wrapper&quot;]/div[@id=&quot;vcw-card-button&quot;]</value>
+      <value>id(&quot;vc-message-no-5ddf0058dc4d995a3b93a542&quot;)/div[@class=&quot;vcw-gallery&quot;]/span[@class=&quot;vcw-card&quot;]/div[@class=&quot;vcw-card-button-wrapper&quot;]/div[@id=&quot;vcw-card-button&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//div[@id='vcw-card-button'])[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vc-message-no-5ddf0058dc4d995a3b93a542']/div/span[3]/div[3]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special Events'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Meetings &amp; Events'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Meetings &amp; Events'])[2]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special Events'])[2]/preceding::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[3]/div[3]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
